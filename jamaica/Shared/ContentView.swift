@@ -211,6 +211,8 @@ struct ContentView: View {
                             }
                         }
                         Spacer()
+                        AdMobView()
+                            .frame(width: 150, height: 60)
                     }
                     .alert(isPresented: $vm.showAlert) {
                         Alert(
@@ -255,3 +257,5 @@ extension Color {
     static let areaGray = Color(red: 36 / 255, green: 36 / 255, blue: 34 / 255)
 
 }
+
+

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B3108C29F58E8600F98E80 /* AdMobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3108B29F58E8600F98E80 /* AdMobView.swift */; };
+		32B3108D29F58E8600F98E80 /* AdMobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3108B29F58E8600F98E80 /* AdMobView.swift */; };
 		32EE764329E11DD100EB20DC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE764229E11DD100EB20DC /* Tests_iOS.swift */; };
 		32EE764529E11DD100EB20DC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE764429E11DD100EB20DC /* Tests_iOSLaunchTests.swift */; };
 		32EE764F29E11DD100EB20DC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE764E29E11DD100EB20DC /* Tests_macOS.swift */; };
@@ -21,6 +23,8 @@
 		32EE766829E11E6F00EB20DC /* CaluculateDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE766629E11E6F00EB20DC /* CaluculateDice.swift */; };
 		32EE766E29E126F100EB20DC /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE766D29E126F100EB20DC /* Dice.swift */; };
 		32EE766F29E126F100EB20DC /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EE766D29E126F100EB20DC /* Dice.swift */; };
+		42DF933180E4454E95D6AA74 /* Pods_jamaica__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D03963A97D9A1DE60963D18 /* Pods_jamaica__macOS_.framework */; };
+		5B8A6EE662945DFF3380DB53 /* Pods_jamaica__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE3FEADBA9F8D92A63987B6 /* Pods_jamaica__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D03963A97D9A1DE60963D18 /* Pods_jamaica__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamaica__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B3108A29F58D8100F98E80 /* jamaica--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "jamaica--iOS--Info.plist"; sourceTree = "<group>"; };
+		32B3108B29F58E8600F98E80 /* AdMobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobView.swift; sourceTree = "<group>"; };
 		32EE762A29E11DCE00EB20DC /* jamaicaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jamaicaApp.swift; sourceTree = "<group>"; };
 		32EE762B29E11DCE00EB20DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32EE762C29E11DD100EB20DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +62,11 @@
 		32EE765029E11DD100EB20DC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		32EE766629E11E6F00EB20DC /* CaluculateDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaluculateDice.swift; sourceTree = "<group>"; };
 		32EE766D29E126F100EB20DC /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		6DE3FEADBA9F8D92A63987B6 /* Pods_jamaica__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jamaica__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E75E1045EB90D7F9E68F216 /* Pods-jamaica (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamaica (iOS).debug.xcconfig"; path = "Target Support Files/Pods-jamaica (iOS)/Pods-jamaica (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		99C8E7A27CC5B088B55C1DA5 /* Pods-jamaica (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamaica (macOS).release.xcconfig"; path = "Target Support Files/Pods-jamaica (macOS)/Pods-jamaica (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		9FC9FDC595F6F09D4FDF4704 /* Pods-jamaica (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamaica (macOS).debug.xcconfig"; path = "Target Support Files/Pods-jamaica (macOS)/Pods-jamaica (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		DDBA0AF20D6FB9225F2227DF /* Pods-jamaica (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jamaica (iOS).release.xcconfig"; path = "Target Support Files/Pods-jamaica (iOS)/Pods-jamaica (iOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8A6EE662945DFF3380DB53 /* Pods_jamaica__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DF933180E4454E95D6AA74 /* Pods_jamaica__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,14 +103,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D621BE011FB656BB57048B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E1045EB90D7F9E68F216 /* Pods-jamaica (iOS).debug.xcconfig */,
+				DDBA0AF20D6FB9225F2227DF /* Pods-jamaica (iOS).release.xcconfig */,
+				9FC9FDC595F6F09D4FDF4704 /* Pods-jamaica (macOS).debug.xcconfig */,
+				99C8E7A27CC5B088B55C1DA5 /* Pods-jamaica (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		32EE762429E11DCE00EB20DC = {
 			isa = PBXGroup;
 			children = (
+				32B3108A29F58D8100F98E80 /* jamaica--iOS--Info.plist */,
 				32EE762929E11DCE00EB20DC /* Shared */,
 				32EE763829E11DD100EB20DC /* macOS */,
 				32EE764129E11DD100EB20DC /* Tests iOS */,
 				32EE764D29E11DD100EB20DC /* Tests macOS */,
 				32EE763229E11DD100EB20DC /* Products */,
+				27D621BE011FB656BB57048B /* Pods */,
+				722D4E5108C20035A6D11B07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				32EE762A29E11DCE00EB20DC /* jamaicaApp.swift */,
+				32B3108B29F58E8600F98E80 /* AdMobView.swift */,
 				32EE762B29E11DCE00EB20DC /* ContentView.swift */,
 				32EE766629E11E6F00EB20DC /* CaluculateDice.swift */,
 				32EE766D29E126F100EB20DC /* Dice.swift */,
@@ -149,6 +178,15 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		722D4E5108C20035A6D11B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3FEADBA9F8D92A63987B6 /* Pods_jamaica__iOS_.framework */,
+				1D03963A97D9A1DE60963D18 /* Pods_jamaica__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32EE765A29E11DD100EB20DC /* Build configuration list for PBXNativeTarget "jamaica (iOS)" */;
 			buildPhases = (
+				A792F4A66AC63ADC193A9F2E /* [CP] Check Pods Manifest.lock */,
 				32EE762D29E11DD100EB20DC /* Sources */,
 				32EE762E29E11DD100EB20DC /* Frameworks */,
 				32EE762F29E11DD100EB20DC /* Resources */,
+				C5B29EF89EBD8B6725C5390F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32EE765D29E11DD100EB20DC /* Build configuration list for PBXNativeTarget "jamaica (macOS)" */;
 			buildPhases = (
+				4FF22F5F0901741645D13DC7 /* [CP] Check Pods Manifest.lock */,
 				32EE763329E11DD100EB20DC /* Sources */,
 				32EE763429E11DD100EB20DC /* Frameworks */,
 				32EE763529E11DD100EB20DC /* Resources */,
@@ -302,12 +343,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FF22F5F0901741645D13DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jamaica (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A792F4A66AC63ADC193A9F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jamaica (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B29EF89EBD8B6725C5390F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jamaica (iOS)/Pods-jamaica (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jamaica (iOS)/Pods-jamaica (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jamaica (iOS)/Pods-jamaica (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32EE762D29E11DD100EB20DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32EE765429E11DD100EB20DC /* ContentView.swift in Sources */,
+				32B3108C29F58E8600F98E80 /* AdMobView.swift in Sources */,
 				32EE765229E11DD100EB20DC /* jamaicaApp.swift in Sources */,
 				32EE766E29E126F100EB20DC /* Dice.swift in Sources */,
 				32EE766729E11E6F00EB20DC /* CaluculateDice.swift in Sources */,
@@ -319,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EE765529E11DD100EB20DC /* ContentView.swift in Sources */,
+				32B3108D29F58E8600F98E80 /* AdMobView.swift in Sources */,
 				32EE765329E11DD100EB20DC /* jamaicaApp.swift in Sources */,
 				32EE766F29E126F100EB20DC /* Dice.swift in Sources */,
 				32EE766829E11E6F00EB20DC /* CaluculateDice.swift in Sources */,
@@ -470,6 +577,7 @@
 		};
 		32EE765B29E11DD100EB20DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E75E1045EB90D7F9E68F216 /* Pods-jamaica (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +586,7 @@
 				DEVELOPMENT_TEAM = MHPJVC65BB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "jamaica--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,6 +598,66 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleAppMeasurementIdentitySupport\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"\"-ObjC\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.jamaica;
 				PRODUCT_NAME = jamaica;
 				SDKROOT = iphoneos;
@@ -500,6 +669,7 @@
 		};
 		32EE765C29E11DD100EB20DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBA0AF20D6FB9225F2227DF /* Pods-jamaica (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +678,7 @@
 				DEVELOPMENT_TEAM = MHPJVC65BB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "jamaica--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,6 +690,66 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleAppMeasurementIdentitySupport\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"\"-ObjC\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.jamaica;
 				PRODUCT_NAME = jamaica;
 				SDKROOT = iphoneos;
@@ -531,6 +762,7 @@
 		};
 		32EE765E29E11DD100EB20DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC9FDC595F6F09D4FDF4704 /* Pods-jamaica (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,6 +789,7 @@
 		};
 		32EE765F29E11DD100EB20DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C8E7A27CC5B088B55C1DA5 /* Pods-jamaica (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
